@@ -97,6 +97,8 @@ export default {
       },
 
       onReset () {
+        id.value = null
+        surename.value = null
         name.value = null
         age.value = null
         accept.value = false
